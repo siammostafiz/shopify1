@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 200px;
+  }
+  
+  .search-bar {
+    margin-left: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .box {
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .box img {
+    max-width: 100%;
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .content h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1rem;
+  }
+
+
+  
+  .unique-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease; /* Added transition for smooth effect */
+  }
+  
+  .grid-item:hover {
+    background-color: #f2f2f2; /* Changed background color on hover */
+  }
+  
+
+
+  .sidebar {
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #000;
+  }
+
+
+
+  .Manik {
+    justify-content: center;
+    text-align: center;
+}
+
+.manikgonj {
+    color: green !important;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .man{
+    background: yellow;
+    
+  }
